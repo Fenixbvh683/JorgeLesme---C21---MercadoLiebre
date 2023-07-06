@@ -1,6 +1,6 @@
 ***
-#Jorge Lesme
-###Proyecto Mercado Liebre
+# Jorge Lesme
+### Proyecto Mercado Liebre
 ***
 
 #### [MAIN](https://github.com/Fenixbvh683/MercadoLiebre/tree/main)
