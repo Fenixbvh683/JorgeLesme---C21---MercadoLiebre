@@ -1,0 +1,43 @@
+.home__header{
+    background-color: var(--colorAmarillo);
+}
+
+.home__header__box{
+    text-align: center;
+}
+
+.home__header--img{
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.home__hader__div1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.home__hader__div2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.home__header__nav2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.home__header__box--bars{
+    background-color: var(--colorCeleste);
+    padding: 8px;
+    margin: 0 auto 30px;
+    display:inline-block;
+    border-radius: 3px;
+    color: white;
+    
+}

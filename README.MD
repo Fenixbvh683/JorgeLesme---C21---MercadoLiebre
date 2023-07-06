@@ -3,7 +3,7 @@
 ###Proyecto Mercado Liebre
 ***
 
-####Parte 1 - ***Maquetado HTML***
+## [Parte1 - HTML](https://github.com/Fenixbvh683/MercadoLiebre/tree/maquetado)
 ***
 
 ####Parte 2 - ***HEDER & FOOTER con CSS***

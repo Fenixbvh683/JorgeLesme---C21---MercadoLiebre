@@ -1,0 +1,39 @@
+.home__main__section{
+    padding: 10px;
+}
+
+.home__main__section--titulares{
+    font-size: 24px;
+    text-align: center;
+}
+
+.home__main__section__article{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    border-color: transparent;
+   
+}
+
+.home__main__section__article--div{
+    background-color: white;
+}
+
+.home__main__section__article--img{
+    width: 100%;
+}
+
+.home__main__section__article--precio{
+    font-size: 18px;
+    padding: 5px;
+}
+
+.home__main__section__article--descuento{
+    font-size: 16px;
+    padding: 5px;
+}
+
+.home__main__section__article--descripcion{
+    font-size: 16px;
+    padding: 5px;
+}

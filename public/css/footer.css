@@ -1,0 +1,33 @@
+.footer{
+    text-align: center;
+    
+}
+
+.footer__section{
+    
+    border-width: 50px;
+    padding: 5px;
+}
+
+.footer__section__article{
+    padding: 24px;
+    text-align: center;
+    background-color: white;
+    border-color: white;
+   
+}
+
+.footer__section__article i{
+    width: 2em;
+    padding-bottom: 10px;
+}
+
+.ooter__section__article--p1{
+    font-weight: 900;
+}
+
+.footer__section--h6{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
