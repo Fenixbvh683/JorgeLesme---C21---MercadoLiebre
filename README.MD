@@ -20,4 +20,4 @@
 
 ***
 
-#### [Parte3 - ADAPTACION A DISPOSITIVOS](hhttps://github.com/Fenixbvh683/MercadoLiebre/tree/quiebre)
+#### [Parte3 - ADAPTACION A DISPOSITIVOS](https://github.com/Fenixbvh683/MercadoLiebre/tree/quiebre)
