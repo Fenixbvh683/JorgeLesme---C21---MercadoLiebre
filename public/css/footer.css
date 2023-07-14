@@ -18,11 +18,11 @@
 }
 
 .footer__section__article i{
-    width: 2em;
+    font-size: 2em;
     padding-bottom: 10px;
 }
 
-.ooter__section__article--p1{
+.footer__section__article--p1{
     font-weight: 900;
 }
 
@@ -30,4 +30,20 @@
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+
+@media (min-width: 1024px){
+    .footer__section__article i{
+        font-size: 4em;
+        padding-bottom: 10px;
+    }
+
+    .footer__section__article p{
+        font-size: 20px;
+    }
+
+    .footer__section--h6{
+        font-size: 20px;
+    }
 }
