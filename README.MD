@@ -13,11 +13,20 @@
 #### [Parte  0 - Develop](https://github.com/Fenixbvh683/MercadoLiebre/tree/develop)
 ***
 
-#### [Parte1 - HTML](https://github.com/Fenixbvh683/MercadoLiebre/tree/maquetado)
+#### [Parte 1 - HTML](https://github.com/Fenixbvh683/MercadoLiebre/tree/maquetado)
 ***
 
-#### [Parte2 - FOOTER & HEADER CSS](https://github.com/Fenixbvh683/MercadoLiebre/tree/footercss)
+#### [Parte 2 - ESTRUCTURA DE UN SITIO WEB](https://github.com/Fenixbvh683/MercadoLiebre/tree/footercss)
 
 ***
 
-#### [Parte3 - ADAPTACION A DISPOSITIVOS](https://github.com/Fenixbvh683/MercadoLiebre/tree/quiebre)
+#### [Parte 3 - AGREGANDO ESTILOS](https://github.com/Fenixbvh683/MercadoLiebre/tree/quiebre)
+
+***
+
+#### [Parte 4 - DISEÑO ADAPTATIVO](https://github.com/Fenixbvh683/MercadoLiebre/tree/quiebre)
+
+***
+
+#### [Parte 5 - POSICIONAMIENTO AVANZADO FLEXBOX](https://github.com/Fenixbvh683/MercadoLiebre/tree/flexbox)
+
