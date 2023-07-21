@@ -41,6 +41,7 @@
     font-size: 10px;
     display: block;
     color: green;
+    border-left: 1px solid gray;
     font-size: 10px;
     padding: 5px;
     position: absolute;
@@ -49,8 +50,11 @@
     justify-content: space-between;
 }
 
+
 .home__header a{
     text-decoration: none;
+    color:rgb(31, 29, 34);
+    margin: 0 10px;
 }
 
 .home__header--cuotas{
@@ -109,8 +113,9 @@
 
     .home__header__lupa{
         display: flex;
+        border-left: 2px solid gray;
         right: 40%;
-        top: 7%;
+        top: 3.7%;
         
     }
 
@@ -179,6 +184,7 @@
 
     .home__header__lupa{
         font-size: 25px;
+        border-left: 4px solid gray;
         right: 40%;
         top: 4%;
 }
