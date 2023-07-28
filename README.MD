@@ -34,3 +34,7 @@
 ***
 
 #### [Parte 6 - FORMULARIO LOGIN & REGISTER](https://github.com/Fenixbvh683/MercadoLiebre/tree/login)
+
+***
+
+#### [Parte 7 - ORGANIZANDO](https://github.com/Fenixbvh683/MercadoLiebre/tree/organizando)
