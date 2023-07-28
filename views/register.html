@@ -18,7 +18,7 @@
 
         <div class="home__header__encabezado">
 
-            <img src="/img/logo-mercado-liebre.svg" alt="">
+            <img href="/" src="/img/logo-mercado-liebre.svg" alt="">
 
             <div class="home__header__buscar">
                 <div class="input__buscar__contenedor">
@@ -48,8 +48,8 @@
 
             <ul class="home__header__nav--loggin">
 
-                <li><a href="#">Creá tu cuenta <i class="fa-regular fa-id-card"></i></a></li>
-                <li><a href="#">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a></li>
+                <li><a href="/register">Creá tu cuenta <i class="fa-regular fa-id-card"></i></a></li>
+                <li><a href="/login">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a></li>
                 <li><a href="#">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
 
             </ul>
@@ -60,16 +60,105 @@
             <a href="" class="home__header__box--bars"><i class="fa fa-bars fa-lg"></i></a>
 
         </div>
-
-
     </header>
 
+    <main class="register">
 
-    <main>
-            <h1>Inicio</h1>
+        <div class="register__box">
+
+            <form action="" method="">
+
+                <div class="input__box__form__input">
+                    <input type="text" placeholder="Nombre y Apellido" class="input__box__form--input">
+                </div>
+
+                <div class="input__box__form__input">
+                    <input type="text" placeholder="Nombre de Ususraio" class="input__box__form--input">
+                </div>
+
+                <div class="input__box__form__input">
+                    <input type="email" placeholder="E-mail" class="input__box__form--input">
+                </div>
+
+                <div class="input__box__form__input">
+                    <h4>Fecha de Nacimiento</h4>
+                    <input type="date" class="input__box__form--input">
+
+                </div>
+
+                <div class="input__box__form__input">
+                    <input type="text" placeholder="Domicilio" class="input__box__form--input">
+                </div>
+
+                <div class="input__box__form__input">
+                    <h4>Perfil de Usuario</h4>
+
+                    <div class="radio__box__form__radio">
+
+                        <div class="radio__box__form__radio__parte">
+                            <input type="radio" value="comprador" name="perfil" id="comprador">
+                            <label for="comprador">Comprador</label>
+                        </div>
+
+                        <div class="register__box__form__radio__parte">
+                            <input type="radio" value="vendedor" name="perfil" id="vendedor">
+                            <label for="vendedor">Vendedor</label>
+                        </div>
+
+                    </div>
+
+                    <div class="input__box__form__input">
+
+                        <h4>Intereses</h4>
+
+                        <div class="checkbox__box__form__checkbox__parte">
+                            <input type="checkbox" value="electro" name="interes" id="electro">
+                            <label for="elctro">Electro</label>
+                        </div>
+
+                        <div class="checkbox__box__form__checkbox__parte">
+                            <input type="checkbox" value="moda" name="interes" id="moda">
+                            <label for="moda">Moda</label>
+                        </div>
+
+                        <div class="checkbox__box__form__checkbox__parte">
+                            <input type="checkbox" value="hogar" name="interes" id="hogar">
+                            <label for="hogar">Hogar</label>
+                        </div>
+
+                        <div class="checkbox__box__form__checkbox__parte">
+                            <input type="checkbox" value="jugeteria" name="interes" id="jugeteria">
+                            <label for="jugeteria">Jugueteria</label>
+                        </div>
+
+                        <div class="checkbox__box__form__checkbox__parte">
+                            <input type="checkbox" value="vida_sana" name="interes" id="vida_sana">
+                            <label for="vida_sana">Vida Sana</label>
+                        </div>
+
+                        <div class="input__box__form__input">
+                            <h4>Foto de Usuario</h4>
+                            <input type="file" name="avatr" accept="jpg" multiple>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="botom__box__form__btn">
+
+                    <div class="botom__box__form__btn__butttom">
+                        <button class="botom__box__form__btn__butttom__select enviar"><a href="/">Enviar</a></button>
+                    </div>
+
+                    <div class="botom__box__form__btn__butttom">
+                        <button type="reset" class="botom__box__form__btn__butttom__select limpiar">Limpiar</button>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
 
     </main>
-
 
     <footer class="footer">
 
@@ -96,9 +185,9 @@
                     protegido.</p>
             </article>
 
-            <article class="footer__section__article">
-                <h6 class="footer__section--h6">Copyring C 1999-2020 MercadoLiebre S.R.L.</h6>
-            </article>
+
+            <p class="footer__section--copy">Copyring C 1999-2020 MercadoLiebre S.R.L.</p>
+
 
 
         </section>
@@ -108,4 +197,3 @@
 </body>
 
 </html>
-

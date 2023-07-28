@@ -12,13 +12,14 @@
     <title>Mercado Liebre | Home</title>
 </head>
 
-<body class="home">
+<body>
 
     <header class="home__header">
 
         <div class="home__header__encabezado">
 
-            <img src="/img/logo-mercado-liebre.svg" alt="">
+            <img href="/" src="/img/logo-mercado-liebre.svg" alt=""
+                    class="home__header__encabezado__logo"></a>
 
             <div class="home__header__buscar">
                 <div class="input__buscar__contenedor">
@@ -48,8 +49,8 @@
 
             <ul class="home__header__nav--loggin">
 
-                <li><a href="#">Creá tu cuenta <i class="fa-regular fa-id-card"></i></a></li>
-                <li><a href="#">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a></li>
+                <li><a href="/register">Creá tu cuenta <i class="fa-regular fa-id-card"></i></a></li>
+                <li><a href="/login">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a></li>
                 <li><a href="#">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
 
             </ul>
@@ -60,15 +61,36 @@
             <a href="" class="home__header__box--bars"><i class="fa fa-bars fa-lg"></i></a>
 
         </div>
-
-
     </header>
 
+    <main class="login">
 
-    <main>
-            <h1>Inicio</h1>
+        <div class="login__box">
+
+            <form action="" method="">
+
+                <div class="input__box__form__input">
+                    <input type="text" placeholder="Nombre de usuario" class="input__box__form--input">
+                </div>
+
+                <div class="input__box__form__input">
+                    <input type="password" placeholder="Ingrese su contraseña" class="input__box__form--input">
+                </div>
+
+                <div class="botom__box__form__btn__login">
+
+                    <div class="botom__box__form__btn__butttom__login">
+                        <button class="botom__box__form__btn__butttom__select__login enviar__login"><a href="/">Enviar</a></button>
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
 
     </main>
+
 
 
     <footer class="footer">
@@ -96,9 +118,9 @@
                     protegido.</p>
             </article>
 
-            <article class="footer__section__article">
+            <div class="footer__section__div">
                 <h6 class="footer__section--h6">Copyring C 1999-2020 MercadoLiebre S.R.L.</h6>
-            </article>
+            </div>
 
 
         </section>

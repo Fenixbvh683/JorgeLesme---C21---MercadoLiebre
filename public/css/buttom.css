@@ -1,0 +1,188 @@
+.botom__box__form__btn{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.botom__box__form__btn__butttom{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.botom__box__form__btn__butttom__select{
+    width: 80px;
+    height: 30px;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 700;
+    border: none
+}
+
+.botom__box__form__btn__butttom__select a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.botom__box__form__btn__butttom__select a:hover{
+        color: white;
+}
+
+.enviar:hover {
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    
+}
+
+.limpiar:hover {
+    background-color: red;
+    color: white;
+    font-weight: 700;
+}
+
+.botom__box__form__btn__login{
+    display: flex;
+    width: 100%;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.botom__box__form__btn__butttom__login{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.botom__box__form__btn__butttom__select__login{
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 700;
+    border: none
+}
+
+.botom__box__form__btn__butttom__select__login a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.botom__box__form__btn__butttom__select__login a:hover{
+        color: white;
+}
+
+.botom__box__form__btn__login:hover{
+    display: flex;
+    width: 100%;
+    background-color: lightskyblue;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(min-width: 481px){
+    
+    .botom__box__form__btn{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+    
+    .botom__box__form__btn__butttom{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        justify-content: space-between;
+        padding: 10px;
+        
+    }
+    
+    .botom__box__form__btn__butttom__select{
+        width: 80px;
+        height: 30px;
+        border-radius: 25px;
+        font-size: 12px;
+        font-weight: 700;
+        border: none
+    }
+    
+    .botom__box__form__btn__butttom__select a{
+        list-style: none;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .botom__box__form__btn__butttom__select a:hover{
+            color: white;
+    }
+    
+    .enviar:hover {
+        background-color: green;
+        color: white;
+        font-weight: 700;
+        
+    }
+    
+    .limpiar:hover {
+        background-color: red;
+        color: white;
+        font-weight: 700;
+    }
+    
+    .botom__box__form__btn__login{
+        display: flex;
+        width: 100%;
+        background-color: blue;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    
+    .botom__box__form__btn__butttom__login{
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+    
+    .botom__box__form__btn__butttom__select__login{
+        width: 100%;
+        height: 30px;
+        background-color: transparent;
+        border-radius: 25px;
+        font-size: 12px;
+        font-weight: 700;
+        border: none
+    }
+    
+    .botom__box__form__btn__butttom__select__login a{
+        list-style: none;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .botom__box__form__btn__butttom__select__login a:hover{
+            color: white;
+    }
+    
+    .botom__box__form__btn__login:hover{
+        display: flex;
+        width: 100%;
+        background-color: lightskyblue;
+        justify-content: center;
+        align-items: center;
+    }
+}

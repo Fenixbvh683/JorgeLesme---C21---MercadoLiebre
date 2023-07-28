@@ -1,0 +1,20 @@
+.radio__box__form__radio{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.radio__box__form__radio__parte{
+    display: flex;
+    width: 40%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.checkbox__box__form__checkbox__parte{
+    padding: 5px;
+    
+}

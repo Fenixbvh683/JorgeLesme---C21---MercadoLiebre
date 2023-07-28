@@ -21,7 +21,8 @@ body{
     font-family: var(--tipografiaGeneral);
     background-color: var(--colorGrisClaro);
     font-size: 12px;
-    width: 100%;
+    max-width: 1200px;
+    margin: auto;
 }
 
 
