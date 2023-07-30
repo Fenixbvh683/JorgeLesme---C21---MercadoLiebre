@@ -86,7 +86,7 @@
 .botom__box__form__btn__login:hover{
     display: flex;
     width: 100%;
-    background-color: lightskyblue;
+    background-color: #0022AA;
     justify-content: center;
     align-items: center;
 }
@@ -181,7 +181,6 @@
     .botom__box__form__btn__login:hover{
         display: flex;
         width: 100%;
-        background-color: lightskyblue;
         justify-content: center;
         align-items: center;
     }
