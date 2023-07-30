@@ -18,20 +18,35 @@
 
         <div class="home__header__encabezado">
 
-            <img href="/" src="/img/logo-mercado-liebre.svg" alt="">
+            <img src="/img/logo-mercado-liebre.svg" alt="">
 
             <div class="home__header__buscar">
+
                 <div class="input__buscar__contenedor">
+
                     <input type="search" class="input__buscar" placeholder="Buscar Producto, marcas">
 
                     <i class="fa-solid fa-magnifying-glass home__header__lupa"></i>
+
                 </div>
+
             </div>
 
             <div class="home__header__cuotas">
+
                 <a href="" class="home__header--cuotas"><i class="fa-solid fa-hand-holding-dollar"></i> Compra en cuotas
                     y sin tarjetas de créditos</a>
+
             </div>
+
+        </div>
+
+        <div class="home__header__burger">
+
+            <a onclick="document.querySelector('.home__header__nav').classList.toggle('showMenu')"
+                class="home__header__box--bars"><i class="fa fa-bars fa-lg"></i></a>
+
+            <!-- <button onclick="document.querySelector('.home__header__nav').classList.toggle('showMenu')"><i class="fa fa-bars fa-lg"></i></button>-->
 
         </div>
 
@@ -40,8 +55,11 @@
             <ul class="home__header__nav--site">
 
                 <li><a href="#">Ofertas</a></li>
+
                 <li><a href="#">Tiendas Oficiales</a></li>
+
                 <li><a href="#">Vender</a></li>
+
                 <li><a href="#">Ayuda</a></li>
 
             </ul>
@@ -49,17 +67,15 @@
             <ul class="home__header__nav--loggin">
 
                 <li><a href="/register">Creá tu cuenta <i class="fa-regular fa-id-card"></i></a></li>
+
                 <li><a href="/login">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a></li>
+
                 <li><a href="#">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
 
             </ul>
 
         </nav>
-        <div class="home__header__burger">
 
-            <a href="" class="home__header__box--bars"><i class="fa fa-bars fa-lg"></i></a>
-
-        </div>
     </header>
 
     <main class="register">
@@ -185,12 +201,11 @@
                     protegido.</p>
             </article>
 
-
-            <p class="footer__section--copy">Copyring C 1999-2020 MercadoLiebre S.R.L.</p>
-
-
-
         </section>
+
+        <article class="footer__section__article__pie">
+            <h6 class="footer__section--h6">Copyring C 1999-2020 MercadoLiebre S.R.L.</h6>
+        </article>
 
     </footer>
 
